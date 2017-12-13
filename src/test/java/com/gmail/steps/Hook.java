@@ -1,6 +1,8 @@
 package com.gmail.steps;
 
 import com.enums.Browsers;
+import com.files.properties.PropertiesReading;
+import com.page.objects.Page;
 import com.test.config.BaseTest;
 import cucumber.api.java.*;
 

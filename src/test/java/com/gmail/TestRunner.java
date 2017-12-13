@@ -8,5 +8,5 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/java/com/gmail/features",
                 format = {"pretty", "html:target/cucumber"})
 
-public class AuthorizationTestRunner {
+public class TestRunner {
 }

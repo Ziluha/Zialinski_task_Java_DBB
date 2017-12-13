@@ -56,4 +56,9 @@ public class AuthorizationSteps {
         Assert.assertTrue("Password Error Lable is not presented",
                 Page.gmailPassword().isPasswordErrorLabelPresented());
     }
+
+    @Then("^Authorization is unsucceed, but fails$")
+    public void authorizationIsUnsucceedButFails() throws Throwable {
+        Assert.assertTrue("Password page is not opened", Page.gmailPassword().IsLoginApplied());
+    }
 }

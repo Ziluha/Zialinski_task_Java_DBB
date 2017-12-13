@@ -75,7 +75,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6347586837,
+  "duration": 6692960877,
   "status": "passed"
 });
 formatter.scenario({
@@ -131,7 +131,7 @@ formatter.match({
   "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
 });
 formatter.result({
-  "duration": 109740861,
+  "duration": 149109083,
   "status": "passed"
 });
 formatter.match({
@@ -144,21 +144,21 @@ formatter.match({
   "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
 });
 formatter.result({
-  "duration": 5395283636,
+  "duration": 240233812,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.iSubmitLogin()"
 });
 formatter.result({
-  "duration": 4360513829,
+  "duration": 145151456,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.opensPasswordPage()"
 });
 formatter.result({
-  "duration": 56867,
+  "duration": 49099,
   "status": "passed"
 });
 formatter.match({
@@ -171,25 +171,25 @@ formatter.match({
   "location": "AuthorizationSteps.iEnterValidPasswordInPasswordField(String)"
 });
 formatter.result({
-  "duration": 847550776,
+  "duration": 811064712,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.iSubmitPassword()"
 });
 formatter.result({
-  "duration": 147906011,
+  "duration": 135598172,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.opensInboxPageAndAuthorizationIsSucceed()"
 });
 formatter.result({
-  "duration": 4856160078,
+  "duration": 5810903544,
   "status": "passed"
 });
 formatter.after({
-  "duration": 699685543,
+  "duration": 975780721,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -244,7 +244,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6399027667,
+  "duration": 5355645784,
   "status": "passed"
 });
 formatter.scenario({
@@ -282,7 +282,7 @@ formatter.match({
   "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
 });
 formatter.result({
-  "duration": 40500,
+  "duration": 54092,
   "status": "passed"
 });
 formatter.match({
@@ -295,25 +295,25 @@ formatter.match({
   "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
 });
 formatter.result({
-  "duration": 266339671,
+  "duration": 721465945,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.iSubmitLogin()"
 });
 formatter.result({
-  "duration": 132015863,
+  "duration": 131722931,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.authorizationIsUnsucceedBecauseLoginInInvalid()"
 });
 formatter.result({
-  "duration": 609424628,
+  "duration": 582894630,
   "status": "passed"
 });
 formatter.after({
-  "duration": 667506348,
+  "duration": 668941324,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -385,7 +385,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5744449974,
+  "duration": 6545659316,
   "status": "passed"
 });
 formatter.scenario({
@@ -441,7 +441,7 @@ formatter.match({
   "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
 });
 formatter.result({
-  "duration": 60196,
+  "duration": 120945,
   "status": "passed"
 });
 formatter.match({
@@ -454,21 +454,21 @@ formatter.match({
   "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
 });
 formatter.result({
-  "duration": 485297390,
+  "duration": 258611383,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.iSubmitLogin()"
 });
 formatter.result({
-  "duration": 112634946,
+  "duration": 123015153,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.opensPasswordPage()"
 });
 formatter.result({
-  "duration": 56867,
+  "duration": 46048,
   "status": "passed"
 });
 formatter.match({
@@ -479,27 +479,4 @@ formatter.match({
     }
   ],
   "location": "AuthorizationSteps.iEnterValidPasswordInPasswordField(String)"
-});
-formatter.result({
-  "duration": 837031871,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AuthorizationSteps.iSubmitPassword()"
-});
-formatter.result({
-  "duration": 121428440,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AuthorizationSteps.authorizationIsUnsucceedBecausePasswordIsInvalid()"
-});
-formatter.result({
-  "duration": 566845810,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 664720725,
-  "status": "passed"
-});
 });
