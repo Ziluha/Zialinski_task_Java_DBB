@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/com/gmail/features/authorization.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("authorization.feature");
 formatter.feature({
   "line": 1,
   "name": "GmailAuthorization",
@@ -66,13 +66,17 @@ formatter.examples({
     {
       "cells": [
         "test.task.zel",
-        "\u0027Test1234Test\u0027"
+        "Test1234Test"
       ],
       "line": 15,
       "id": "gmailauthorization;authorization-with-valid-data;;2"
     }
   ],
   "keyword": "Examples"
+});
+formatter.before({
+  "duration": 6347586837,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 15,
@@ -107,7 +111,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I enter \u0027Test1234Test\u0027 in Password Field",
+  "name": "I enter Test1234Test in Password Field",
   "matchedColumns": [
     1
   ],
@@ -123,33 +127,70 @@ formatter.step({
   "name": "Opens Inbox Page and authorization is succeed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 109740861,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "test.task.zel",
+      "offset": 8
+    }
+  ],
+  "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 5395283636,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "AuthorizationSteps.iSubmitLogin()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 4360513829,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "AuthorizationSteps.opensPasswordPage()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 56867,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Test1234Test",
+      "offset": 8
+    }
+  ],
+  "location": "AuthorizationSteps.iEnterValidPasswordInPasswordField(String)"
+});
+formatter.result({
+  "duration": 847550776,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.iSubmitPassword()"
+});
+formatter.result({
+  "duration": 147906011,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.opensInboxPageAndAuthorizationIsSucceed()"
+});
+formatter.result({
+  "duration": 4856160078,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 699685543,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 17,
@@ -202,6 +243,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 6399027667,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 25,
   "name": "Authorization With Invalid Login",
@@ -233,21 +278,43 @@ formatter.step({
   "name": "Authorization is unsucceed, because Login in invalid",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 40500,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "test.invalid.zel",
+      "offset": 8
+    }
+  ],
+  "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 266339671,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.iSubmitLogin()"
+});
+formatter.result({
+  "duration": 132015863,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.authorizationIsUnsucceedBecauseLoginInInvalid()"
+});
+formatter.result({
+  "duration": 609424628,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 667506348,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 27,
@@ -309,13 +376,17 @@ formatter.examples({
     {
       "cells": [
         "test.task.zel",
-        "\u0027Test1234Inv\u0027"
+        "Test1234Inv"
       ],
       "line": 38,
       "id": "gmailauthorization;authorization-with-invalid-password;;2"
     }
   ],
   "keyword": "Examples"
+});
+formatter.before({
+  "duration": 5744449974,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 38,
@@ -350,7 +421,7 @@ formatter.step({
 });
 formatter.step({
   "line": 32,
-  "name": "I enter \u0027Test1234Inv\u0027 in Password Field",
+  "name": "I enter Test1234Inv in Password Field",
   "matchedColumns": [
     1
   ],
@@ -366,32 +437,69 @@ formatter.step({
   "name": "Authorization is unsucceed, because Password is invalid",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 60196,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "test.task.zel",
+      "offset": 8
+    }
+  ],
+  "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 485297390,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "AuthorizationSteps.iSubmitLogin()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 112634946,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "AuthorizationSteps.opensPasswordPage()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 56867,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Test1234Inv",
+      "offset": 8
+    }
+  ],
+  "location": "AuthorizationSteps.iEnterValidPasswordInPasswordField(String)"
+});
+formatter.result({
+  "duration": 837031871,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.iSubmitPassword()"
+});
+formatter.result({
+  "duration": 121428440,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.authorizationIsUnsucceedBecausePasswordIsInvalid()"
+});
+formatter.result({
+  "duration": 566845810,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 664720725,
+  "status": "passed"
 });
 });

@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c80ef53-c4b8-4fa4-b936-e74bfeb07846" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/AuthorizationTestRunner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/features/authorization.feature" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/features/step_definitions/AuthorizationSteps.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/steps/Hook.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/features/drafts.feature" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Zialinski_task_java.iml" afterPath="$PROJECT_DIR$/Zialinski_task_java.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reports/eventfiring/EventHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/reports/eventfiring/EventHandler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reports/extent/settings/GetScreenshot.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/AuthorizationTestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/AuthorizationTestRunner.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/features/authorization.feature" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/features/authorization.feature" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" afterPath="$PROJECT_DIR$/target/cucumber/report.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,63 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthorizationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DraftsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FailCheckTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="347">
+              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1620#1621#0" expanded="true" />
-                <element signature="e#1648#1649#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="EventHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/eventfiring/EventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="-408">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +55,8 @@
       <file leaf-file-name="authorization.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/features/authorization.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="629">
+              <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -100,18 +65,18 @@
       <file leaf-file-name="AuthorizationSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/features/step_definitions/AuthorizationSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="437">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthorizationTestRunner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthorizationTestRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/AuthorizationTestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,11 +84,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="drafts.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/features/drafts.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Hook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/steps/Hook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
@@ -176,14 +151,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wrapper/factory/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/reports/eventfiring/EventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/authorization/authorization.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/hooks/TestFixture.java" />
@@ -192,8 +165,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/steps/Hook.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/features/step_definitions/AuthorizationSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gmail/features/authorization.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/AuthorizationTestRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/reports/eventfiring/EventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/features/authorization.feature" />
       </list>
     </option>
   </component>
@@ -278,6 +253,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zialinski_task_Java_DBB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zialinski_task_Java_DBB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="eventfiring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zialinski_task_Java_DBB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zialinski_task_Java_DBB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,33 +294,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gmail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Zialinski_task_Java_DBB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zialinski_task_Java_DBB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gmail" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Zialinski_task_Java_DBB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zialinski_task_Java_DBB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gmail" type="462c0819:PsiDirectoryNode" />
-              <item name="drafts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Zialinski_task_Java_DBB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zialinski_task_Java_DBB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gmail" type="462c0819:PsiDirectoryNode" />
-              <item name="fail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Zialinski_task_Java_DBB" type="b2602c69:ProjectViewProjectNode" />
@@ -655,32 +622,11 @@
       <workItem from="1513091688772" duration="6258000" />
       <workItem from="1513155763173" duration="6185000" />
       <workItem from="1513163355191" duration="6696000" />
-      <workItem from="1513170537770" duration="2567000" />
+      <workItem from="1513170537770" duration="3855000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 36m 09s.xml">
-      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 37m 00s.xml">
-      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 42m 22s.xml">
-      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 43m 55s.xml">
-      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 44m 04s.xml">
-      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 45m 05s.xml">
-      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 45m 46s.xml">
-      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 50m 28s.xml">
       <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
     </history-entry>
@@ -690,9 +636,30 @@
     <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 52m 25s.xml">
       <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 55m 20s.xml">
+      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 55m 48s.xml">
+      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 56m 38s.xml">
+      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 16h 58m 44s.xml">
+      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 17h 06m 27s.xml">
+      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 17h 11m 25s.xml">
+      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthorizationTestRunner - 2017.12.13 at 17h 14m 05s.xml">
+      <configuration name="AuthorizationTestRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52306000" />
+    <option name="totallyTimeSpent" value="53594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -748,14 +715,8 @@
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/gmail/features/step_definitions/AuthorizationSteps.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -788,19 +749,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-          <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urls.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1034,13 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="64" lean-forward="false" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -1057,13 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/eventfiring/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1085,34 +1019,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="17">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,36 +1048,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="70" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/eventfiring/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/features/step_definitions/AuthorizationSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/features/authorization.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        <state relative-caret-position="629">
+          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/features/step_definitions/AuthorizationSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/steps/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
@@ -1171,11 +1116,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/AuthorizationTestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/features/drafts.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

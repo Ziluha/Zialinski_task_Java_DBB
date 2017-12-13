@@ -12,7 +12,7 @@ Feature: GmailAuthorization
 
     Examples:
       | ValidLogin    | ValidPassword  |
-      | test.task.zel | 'Test1234Test' |
+      | test.task.zel | Test1234Test   |
 
   Scenario Outline: Authorization With Invalid Login
     Given I have opened Gmail on Login Page
@@ -35,4 +35,4 @@ Feature: GmailAuthorization
 
     Examples:
       | ValidLogin    | InvalidPassword |
-      | test.task.zel | 'Test1234Inv'   |
+      | test.task.zel | Test1234Inv     |

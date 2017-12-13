@@ -4,14 +4,10 @@ import com.aventstack.extentreports.Status;
 import com.driver.config.DriverConfig;
 import com.enums.Browsers;
 import com.files.properties.PropertiesReading;
-import com.reports.extent.settings.BaseReport;
-import com.reports.extent.settings.GetScreenshot;
 import com.wrapper.factory.BrowserFactory;
 import org.openqa.selenium.*;
 
-import java.io.IOException;
-
-public class BaseTest extends BaseReport {
+public class BaseTest {
     public static WebDriver driver;
     public static Browsers.name browserName;
     private static String screenshotPath;
@@ -26,30 +22,12 @@ public class BaseTest extends BaseReport {
                 break;
         }
     }
-
-    public static void initReport(){
-        startReport();
-    }
-
     public static void initTest(){
-        test = null;
         chooseDriverInstance(browserName);
         DriverConfig.loadApp(driver, PropertiesReading.getURLs().getProperty("gmailURL"));
     }
 
     public static void endTest(){
-        try {
-            screenshotPath = GetScreenshot.capture(testCaseName);
-            test.log(Status.INFO, "Snapshot below: "+
-                    test.addScreenCaptureFromPath(screenshotPath));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         BrowserFactory.getInstance().CloseAllDrivers();
     }
-
-    public static void endReport(){
-        stopReport();
-    }
-
 }
