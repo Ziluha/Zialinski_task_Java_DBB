@@ -8,9 +8,6 @@ import org.junit.*;
 
 public class AuthorizationTest extends BaseTest {
 
-    public AuthorizationTest(){
-        super(Browsers.name.Chrome);
-    }
     @Test
     public void authWithValidData(){
         testCaseName = "Authorization With Valid Data";

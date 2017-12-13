@@ -7,9 +7,6 @@ import com.test.config.BaseTest;
 import org.junit.*;
 
 public class DraftsTest extends BaseTest{
-    public DraftsTest(){
-        super(Browsers.name.Chrome);
-    }
 
     @Before
     public void setUpAuth(){

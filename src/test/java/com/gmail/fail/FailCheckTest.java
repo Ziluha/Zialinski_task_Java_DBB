@@ -8,10 +8,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class FailCheckTest extends BaseTest {
-    public FailCheckTest(){
-        super(Browsers.name.Chrome);
-    }
-
     @Test
     public void checkFail(){
         testCaseName = "Check Fail Test";
