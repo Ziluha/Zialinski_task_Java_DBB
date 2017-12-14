@@ -75,7 +75,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6692960877,
+  "duration": 6723939774,
   "status": "passed"
 });
 formatter.scenario({
@@ -131,7 +131,7 @@ formatter.match({
   "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
 });
 formatter.result({
-  "duration": 149109083,
+  "duration": 816141082,
   "status": "passed"
 });
 formatter.match({
@@ -144,21 +144,21 @@ formatter.match({
   "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
 });
 formatter.result({
-  "duration": 240233812,
+  "duration": 284092264,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.iSubmitLogin()"
 });
 formatter.result({
-  "duration": 145151456,
+  "duration": 129599455,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.opensPasswordPage()"
 });
 formatter.result({
-  "duration": 49099,
+  "duration": 58808,
   "status": "passed"
 });
 formatter.match({
@@ -171,25 +171,25 @@ formatter.match({
   "location": "AuthorizationSteps.iEnterValidPasswordInPasswordField(String)"
 });
 formatter.result({
-  "duration": 811064712,
+  "duration": 870371419,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.iSubmitPassword()"
 });
 formatter.result({
-  "duration": 135598172,
+  "duration": 107653446,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.opensInboxPageAndAuthorizationIsSucceed()"
 });
 formatter.result({
-  "duration": 5810903544,
+  "duration": 4088522188,
   "status": "passed"
 });
 formatter.after({
-  "duration": 975780721,
+  "duration": 778895781,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -244,7 +244,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5355645784,
+  "duration": 13739267638,
   "status": "passed"
 });
 formatter.scenario({
@@ -282,7 +282,7 @@ formatter.match({
   "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
 });
 formatter.result({
-  "duration": 54092,
+  "duration": 51873,
   "status": "passed"
 });
 formatter.match({
@@ -295,25 +295,25 @@ formatter.match({
   "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
 });
 formatter.result({
-  "duration": 721465945,
+  "duration": 415391888,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.iSubmitLogin()"
 });
 formatter.result({
-  "duration": 131722931,
+  "duration": 167786797,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.authorizationIsUnsucceedBecauseLoginInInvalid()"
 });
 formatter.result({
-  "duration": 582894630,
+  "duration": 619533262,
   "status": "passed"
 });
 formatter.after({
-  "duration": 668941324,
+  "duration": 681468586,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -385,7 +385,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6545659316,
+  "duration": 5554574309,
   "status": "passed"
 });
 formatter.scenario({
@@ -441,7 +441,7 @@ formatter.match({
   "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
 });
 formatter.result({
-  "duration": 120945,
+  "duration": 44107,
   "status": "passed"
 });
 formatter.match({
@@ -454,21 +454,21 @@ formatter.match({
   "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
 });
 formatter.result({
-  "duration": 258611383,
+  "duration": 484089879,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.iSubmitLogin()"
 });
 formatter.result({
-  "duration": 123015153,
+  "duration": 115764266,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthorizationSteps.opensPasswordPage()"
 });
 formatter.result({
-  "duration": 46048,
+  "duration": 39668,
   "status": "passed"
 });
 formatter.match({
@@ -479,4 +479,398 @@ formatter.match({
     }
   ],
   "location": "AuthorizationSteps.iEnterValidPasswordInPasswordField(String)"
+});
+formatter.result({
+  "duration": 832308905,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.iSubmitPassword()"
+});
+formatter.result({
+  "duration": 109754731,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.authorizationIsUnsucceedBecausePasswordIsInvalid()"
+});
+formatter.result({
+  "duration": 579608304,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 721637654,
+  "status": "passed"
+});
+formatter.uri("drafts.feature");
+formatter.feature({
+  "line": 1,
+  "name": "GmailDraft",
+  "description": "In that case I want to check Gmail Drafts",
+  "id": "gmaildraft",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 5277828356,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 5,
+  "name": "Add Message To Drafts",
+  "description": "",
+  "id": "gmaildraft;add-message-to-drafts",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@addMessage"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "I have opened Gmail on Login Page and authorized with valid data n Inbox Page is opened",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "I click Compose button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Opens Compose box and I input Message Subject",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "Saved label is presented",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "I click Drafts Link",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "Draft Page is opened",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "My message is presented in Drafts",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Message successfully added in drafts",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DraftsSteps.iHaveOpenedGmailOnLoginPageAndAuthorizedWithValidDataInboxPageIsOpened()"
+});
+formatter.result({
+  "duration": 1316338589,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.iClickComposeButton()"
+});
+formatter.result({
+  "duration": 3862748541,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.opensComposeBoxAndIInputMessageSubject()"
+});
+formatter.result({
+  "duration": 3797407889,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.savedLabelIsPresented()"
+});
+formatter.result({
+  "duration": 2555595131,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.iClickDraftsLink()"
+});
+formatter.result({
+  "duration": 198284686,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.draftPageIsOpened()"
+});
+formatter.result({
+  "duration": 700051707,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.myMessageIsPresentedInDrafts()"
+});
+formatter.result({
+  "duration": 93583857,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.messageSuccessfullyAddedInDrafts()"
+});
+formatter.result({
+  "duration": 50486,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 800623478,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 5955362062,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Delete Message From Drafts",
+  "description": "",
+  "id": "gmaildraft;delete-message-from-drafts",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 15,
+      "name": "@deleteMessage"
+    }
+  ]
+});
+formatter.step({
+  "line": 17,
+  "name": "I have opened Gmail on Login Page and authorized with valid data n Inbox Page is opened",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 18,
+  "name": "I click Drafts Link",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 19,
+  "name": "Draft Page is opened",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "I choose first Draft",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "I click Discard Drafts button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 22,
+  "name": "Count of Drafts equals count of Drafts at start minus 1",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 23,
+  "name": "Draft successfully deleted",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DraftsSteps.iHaveOpenedGmailOnLoginPageAndAuthorizedWithValidDataInboxPageIsOpened()"
+});
+formatter.result({
+  "duration": 1624854575,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.iClickDraftsLink()"
+});
+formatter.result({
+  "duration": 3972334892,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.draftPageIsOpened()"
+});
+formatter.result({
+  "duration": 152724402,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.iChooseFirstDraft()"
+});
+formatter.result({
+  "duration": 100614213,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.iClickDiscardDraftsButton()"
+});
+formatter.result({
+  "duration": 145746751,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 54
+    }
+  ],
+  "location": "DraftsSteps.countOfDraftsEqualsCountOfDraftsAtStartMinus(int)"
+});
+formatter.result({
+  "duration": 75042067,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DraftsSteps.draftSuccessfullyDeleted()"
+});
+formatter.result({
+  "duration": 66020,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1133134606,
+  "status": "passed"
+});
+formatter.uri("failcheck.feature");
+formatter.feature({
+  "line": 1,
+  "name": "GmailFailCheck",
+  "description": "In that case I want to check test fail",
+  "id": "gmailfailcheck",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 4,
+  "name": "Fail Check",
+  "description": "",
+  "id": "gmailfailcheck;fail-check",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "I have opened Gmail on Login Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "I enter \u003cInvalidLogin\u003e in Login Field",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "I submit Login",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Authorization is unsucceed, but fails",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 10,
+  "name": "",
+  "description": "",
+  "id": "gmailfailcheck;fail-check;",
+  "rows": [
+    {
+      "cells": [
+        "InvalidLogin"
+      ],
+      "line": 11,
+      "id": "gmailfailcheck;fail-check;;1"
+    },
+    {
+      "cells": [
+        "test.invalid.zel"
+      ],
+      "line": 12,
+      "id": "gmailfailcheck;fail-check;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 5246048614,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "Fail Check",
+  "description": "",
+  "id": "gmailfailcheck;fail-check;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "I have opened Gmail on Login Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "I enter test.invalid.zel in Login Field",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "I submit Login",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Authorization is unsucceed, but fails",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "AuthorizationSteps.iHaveOpenedGmailOnLoginPage()"
+});
+formatter.result({
+  "duration": 128157,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test.invalid.zel",
+      "offset": 8
+    }
+  ],
+  "location": "AuthorizationSteps.iEnterValidLoginInLoginField(String)"
+});
+formatter.result({
+  "duration": 300754132,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.iSubmitLogin()"
+});
+formatter.result({
+  "duration": 233397911,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AuthorizationSteps.authorizationIsUnsucceedButFails()"
+});
+formatter.result({
+  "duration": 10058840679,
+  "error_message": "java.lang.AssertionError: Password page is not opened\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat com.gmail.features.step_definitions.AuthorizationSteps.authorizationIsUnsucceedButFails(AuthorizationSteps.java:62)\r\n\tat ✽.Then Authorization is unsucceed, but fails(failcheck.feature:8)\r\n",
+  "status": "failed"
+});
+formatter.after({
+  "duration": 689059562,
+  "status": "passed"
+});
 });
