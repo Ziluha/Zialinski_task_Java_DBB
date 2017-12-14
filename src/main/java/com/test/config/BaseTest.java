@@ -22,6 +22,7 @@ public class BaseTest {
                 break;
         }
     }
+
     public static void initTest(){
         chooseDriverInstance(browserName);
         DriverConfig.loadApp(driver, PropertiesReading.getURLs().getProperty("gmailURL"));

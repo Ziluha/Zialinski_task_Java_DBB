@@ -8,7 +8,7 @@ import cucumber.api.java.*;
 
 public class Hook {
     @Before
-    public void beforeScenario(){
+    public void beforeChrome(){
         BaseTest.browserName = Browsers.name.Chrome;
         BaseTest.initTest();
     }
